@@ -5,4 +5,11 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  safelist: [
+    {
+      pattern:
+        /^(bg-|border-|text-|italic|mb|pr-|pl-|py-|font-|align-|flex|justify-|transition|duration-|ease-in-out|transform|scale-|p-|relative|overflow-|col-|mx-|my-|grid|grid-|gap-)/,
+      variants: ['hover', 'active'],
+    },
+  ],
 };

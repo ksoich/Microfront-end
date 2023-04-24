@@ -1,6 +1,4 @@
 import * as React from 'react';
-import './index.css';
-
 import { Route, Routes, Navigate } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { ProductPage } from './pages/ProductPage';
