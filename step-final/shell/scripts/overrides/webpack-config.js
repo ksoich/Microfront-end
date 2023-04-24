@@ -28,11 +28,11 @@ const override = (config) => {
     /**
      * If the web application consumes a microfront end utilize the following configuration
      */
-    // config.plugins.push(
-    //   new FederatedTypesPlugin({
-    //     federationConfig,
-    //   }),
-    // );
+    config.plugins.push(
+      new FederatedTypesPlugin({
+        federationConfig,
+      }),
+    );
   }
 
   config.plugins.push(new ModuleFederationPlugin(federationConfig));
