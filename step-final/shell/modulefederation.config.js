@@ -5,7 +5,7 @@ module.exports = {
   name: 'Store',
   filename: 'remoteEntry.js',
   remotes: {
-    MobilePhoneProducts: 'http://localhost:3001/remoteEntry.js',
+    MobilePhoneProducts: 'MobilePhoneProducts@http://localhost:3001/remoteEntry.js',
   },
   exposes: {},
   shared: {

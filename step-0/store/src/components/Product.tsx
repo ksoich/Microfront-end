@@ -1,4 +1,5 @@
 import * as React from 'react';
+import '../index.css';
 import { productType } from '../data';
 
 export const Product = (prop: productType) => {
