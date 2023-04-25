@@ -16,9 +16,5 @@ module.exports = {
       singleton: true,
       requiredVersion: dependencies['react-dom'],
     },
-    axios: {
-      singleton: true,
-      requiredVersion: dependencies['axios'],
-    },
   },
 };
